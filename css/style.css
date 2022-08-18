@@ -1,0 +1,39 @@
+body {
+  background-image: url(../login.jpg.webp);
+  background-position: center center;
+  background-size: cover;
+  font-family: "Titillium Web", sans-serif;
+}
+
+#home {
+  height: 75vh;
+}
+
+h1 {
+  color: #121616;
+  font-weight: 700;
+}
+
+.box {
+  box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+
+input,
+textarea {
+  background-color: transparent !important;
+  color: #fff !important;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: rgb(182, 182, 182) !important;
+}
+
+input:focus,
+textarea:focus {
+  box-shadow: 0 0 0 0 transparent !important;
+}
+a {
+  text-decoration: none;
+  color: #17a2b8;
+}
